@@ -92,7 +92,7 @@ h2 {
     margin-top: 20px;
 }
 
-.vision h2 {
+.vision h2,.news-container h2{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@ h2 {
     color: #0E0E0E;
 }
 
-.vision p {
+.vision p,.news-container p {
     font-size: 16px;
     line-height: 24px !important;
     font-weight: 400;
@@ -209,5 +209,77 @@ h2 {
        
     }
 
-/************* Quote Section End ********/
+/************* Quote Section End **********/
 
+/********** News Section Start ********/
+
+  .news-section {
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25); 
+    align-items: center; 
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+   
+}
+
+.image-container {
+    flex: 0 0 40%; 
+    text-align: center;
+}
+
+.image-container img {
+    width: 408px;
+    height: 308px;
+    height: auto;
+    border-radius: 10px;
+    margin:0 auto;
+}
+
+.news-content {
+    flex: 0 0 60%; 
+    padding: 25px;
+}
+
+.news-content h2 {
+    
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.source img {
+    width: 100px;
+    height: 56px;
+    display: inline;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #006A50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+.source-details {
+    font-size: 12px;
+    color: #666;
+}
+
+
+.satelite{
+    padding-left: 50px;
+}
+
+/******* News Section End **********/

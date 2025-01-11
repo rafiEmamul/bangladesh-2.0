@@ -368,17 +368,15 @@ h2 {
   }
   
   .others-amount input{
+    border:none;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25); 
+    color:#0e0e0e39;
+    font-size: 20px;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 70%;
     text-align: center;
-    border:none;
-    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25); 
-    color:#0e0e0e39;
-    font-size: 20px;
-
-   
   }
 
 .other-amounts input[type="text"] {
@@ -398,4 +396,67 @@ h2 {
     border:1px solid #006A50;
     cursor: pointer;
 }
+
 /************* Donate Section End **********/
+
+/********** Newsletter Section Start *********/
+.newsletter-section {
+    background-color: #C6E4D6; 
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+  }
+  
+  .newsletter-section h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color:#0E0E0E;
+  }
+  
+  .newsletter-section p {
+    margin-bottom: 40px;
+    font-weight: 400;
+    color:#0e0e0e84 ; 
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    margin-top:40px 0;
+  }
+  
+  .input-group input[type="email"] {
+    padding: 10px 15px;
+    border: 1px solid #0e0e0e6e;
+    border-radius: 10px;
+    width: 300px; /* Adjust width as needed */ 
+    margin-right: 10px; 
+    width: 35%;
+    padding: 15px;
+    font-size:20px;
+    border:none;
+    padding-left:25px;
+    margin-right: -9px!important;
+
+
+  }
+  
+  .subscribe-btn {
+    background-color: #006A50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .note {
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-top: 30px;
+  }
+/********** Newsletter Section End *********/
+

@@ -48,7 +48,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-.btn {
+.btn ,.donate-btn{
     background-color: #006A50;
     color: #fff;
     padding: 15px 30px;
@@ -58,6 +58,12 @@ h2 {
     height: 56px;
     margin-top: 50px;
     font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    border:1px solid #006A50;
+    color:#006A50;
 }
 
 .flag-section {
@@ -159,6 +165,12 @@ h2 {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 7px;
+    font-weight: bold;
+}
+
+.learn-more:hover{
+    color: #5490F5;
+    background-color: #fff;
 }
 
 
@@ -270,6 +282,13 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     margin-top:20px;
+    font-weight: 800;
+}
+
+.read-more:hover{
+    background-color: white;
+    color: #006A50;
+    border:1px solid #006A50;
 }
 
 .source-details {
@@ -283,3 +302,100 @@ h2 {
 }
 
 /******* News Section End **********/
+
+/************* Dontate Section Start ***************/
+
+.donate-section {
+    text-align: center;
+    margin: 100px 0;
+  }
+  
+  .donate-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+  
+  .donate-section p {
+    
+    margin: 0 auto 30px;
+    color: #0E0E0E; 
+    font-size: 16px;
+  }
+  
+  .donation-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 auto 50px;
+    width: 80%;
+    
+  }
+  
+  .button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 800;
+    width: 252px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25); 
+  }
+
+  .button2{
+    background-color: #C6E4D6;
+  }
+  .button:hover{
+    background-color: #006A50;
+    color:#fff;
+
+  }
+  .others-amount {
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .others-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: block;
+    
+  }
+  
+  .others-amount input{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+    border:none;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25); 
+    color:#0e0e0e39;
+    font-size: 20px;
+
+   
+  }
+
+.other-amounts input[type="text"] {
+    width: 70%;
+    
+}
+
+
+.donate-btn{
+    font-size: 20px;
+
+}
+
+.donate-btn:hover{
+    background-color: white;
+    color:#006A50;
+    border:1px solid #006A50;
+    cursor: pointer;
+}
+/************* Donate Section End **********/

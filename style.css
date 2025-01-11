@@ -461,6 +461,9 @@ h2 {
 /********** Newsletter Section End *********/
 
 /********** footer-last section start *********/
+footer{
+    text-align: center;
+}
 .footer-last {
     padding: 20px 0; 
     text-align: center;

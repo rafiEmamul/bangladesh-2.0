@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+main{
+    width: 1500px;
+    margin: 0 auto;
+}
 /***Banner Section Start *****/
 
 header {
@@ -76,7 +80,7 @@ h2 {
 
 
 /********* Vision Section Strart ********/
-main {
+.v-container {
     display: flex;
     width: 1500px;
     margin: 0 auto;
@@ -159,4 +163,51 @@ main {
 
 
 /****** Vision Section End ******/
+
+/************* Quote Section Start ********/
+.q-container{
+    padding: 50px;
+    border-radius: 10px;
+    position: relative; 
+    margin-bottom: 50px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25); 
+
+    
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0ed9;
+}
+
+.name{
+    
+    color:#0E0E0E;
+    margin:0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title{
+    margin:0;
+    color:#0e0e0e96;
+    font-size: 16px;
+}
+
+
+.q-container::before {
+        background-image: url('assets/quote-bg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        content: "";
+        position: absolute;
+        top: 40px;
+        left: 51px;
+        width: 64px;
+        height: 64px;
+       
+    }
+
+/************* Quote Section End ********/
 

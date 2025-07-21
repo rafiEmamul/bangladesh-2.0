@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{report}
+
+% Package imports - proper placement in preamble
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}  % Moved to preamble as required
+\usepackage{longtable} % Using longtable instead of longtabu
+\usepackage{booktabs}  % For professional table formatting
+\usepackage{array}     % For advanced column specifications
+\usepackage{tabularx}  % For flexible column widths
+\usepackage{multirow}  % For multi-row cells
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{hyperref}
+
+% Geometry settings
+\geometry{
+    a4paper,
+    margin=2.5cm,
+    top=3cm,
+    bottom=3cm
+}
+
+% Title and author information
+\title{Bangladesh 2.0: Idea, Innovation, Vision and Challenges in New Bangladesh}
+\author{Research Team}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\chapter{Introduction}
+Bangladesh 2.0 represents a transformative vision for the nation's future, embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. This research explores the ideas, innovations, visions, and challenges that define this new paradigm for Bangladesh.
+
+\input{chapter2}
+
+\chapter{Methodology}
+This chapter will detail the research methodology employed in this study.
+
+\chapter{Results and Discussion}
+This chapter will present the findings and their implications.
+
+\chapter{Conclusion}
+This chapter will summarize the key findings and provide recommendations for future research.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
